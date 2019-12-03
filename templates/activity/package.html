@@ -1,0 +1,161 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!--showcase-->
+<section id="showcase-inner" class="py-5 text-white">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-md-12">
+              <h1 class="display-4">Browse Our Package</h1>
+              <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt, pariatur!</p>
+            </div>
+          </div>
+        </div>
+       
+      </section>
+      <!--end showcase-->
+    
+      <!-- Breadcrumb -->
+      <section id="bc" class="mt-3">
+        <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="{% url 'index' %}">
+                  <i class="fas fa-home"></i> Home</a>
+              </li>
+              <li class="breadcrumb-item active"> Our Packages</li>
+            </ol>
+          </nav>
+        </div>
+      </section><br>
+      <!--packages-->
+      <div class="head text-center"><br><br>
+        <h1><b><strong>Our Packages</strong></b></h1>
+        <div class="line"></div>
+      </div><br>
+      <div class="container-fluid text-center">
+      <div class="row">
+    
+        <div class="col-md-3 text-left"style="background-color:black;"><br>
+          <center>  <h4 style="color:white"><B>LENS PACKAGE 500,000/=</B></h4></center><br>
+       
+          <div class="pro"style="color:white;">
+            <ul>
+              <li>2 DVD set</li>
+              <LI>100 still Picture 5*7</LI>
+              <li>1 Photographer</li>
+              <li>1 Assistant Photographer</li>
+              <li>2 Lighting Technician</li>
+              <li>Softcopy video & picture On flash disk</li>
+              <li>1 A4 size Framed Picture</li>
+              
+            </ul>
+    
+          </div>
+         
+         
+          
+          
+        </div>
+      
+      <div class="col-md-3 text-left"style="background-color:rgb(32, 104, 32);"><br>
+      <center>  <h4 style="color:white"><B>MEDIA PACKAGE 900,000/=</B></h4></center><br>
+       
+          <div class="pro"style="color:white;">
+            <ul>
+              <li>2 DVD set</li>
+              <li>1 Photographer</li>
+              <li>1 Assistant Photographer</li>
+              <li>2 Lighting Technician</li>
+              <li>Photobook</li>
+              <li>Softcopy video & picture On flash disk</li>
+              <li>2 A4 size Framed Picture</li>
+              <li>2 Big screen Flat TV</li>
+              <li>Live Video shooting coverage</li>
+              <li>Drone coverage</li>
+              <li>Pre wedding/Sendoff Documentary</li>
+              <li>5 min Youtube</li>
+            </ul>
+    
+          </div>
+          
+          </div>
+            
+      
+      <div class="col-md-3 text-left"style="background-color:rgb(66, 2, 2)"><br>
+        <center>  <h4 style="color:white;"><B>PRO PACKAGE 1,500000/=</B></h4></center><br>
+       
+        <div class="pro"style="color:white;">
+          <ul>
+            <li>4 DVD set</li>
+            <li>2 Photographer</li>
+            <li>1 Assistant Photographer</li>
+            <li>4 Lighting Technician</li>
+            <li>Photobook 250 picture</li>
+            <li>Softcopy video & picture On flash disk</li>
+            <li>1 A3 size Framed Picture</li>
+            <li>4 Big screen Flat TV</li>
+            <li>Live Video shooting coverage</li>
+            <li>Drone coverage</li>
+            <li>Pre wedding/Sendoff Documentary</li>
+            <li>Roll Up Banner</li>
+            <li>5 min Youtube</li>
+          </ul>
+    
+        </div>
+         
+      
+          </div>
+          </div>
+           
+      </div> <br><br>
+      
+      <!--inquiry-->
+      <div class="container-fluid">
+          <div class="col-lg-12">
+            <button class="btn-primary btn-block btn-lg sticky-top" data-toggle="modal" 
+            data-target="#inquiryModal">Click Here to Book our Service Now</button> 
+            <div class="modal fade" id="inquiryModal" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="inquiryModalLabel">Book our service</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <form>
+                      
+                        <div class="form-group">
+                          <label for="name" class="col-form-label">Name:</label>
+                          <input type="text" name="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email" class="col-form-label">Email:</label>
+                          <input type="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="phone" class="col-form-label">Phone:</label>
+                          <input type="text" name="phone" class="form-control">
+                        </div>
+                        <div class="form-group">
+                          <label for="message" class="col-form-label">Message:</label>
+                          <textarea name="message" class="form-control"></textarea>
+                        </div>
+                        <hr>
+                        <input type="submit" value="Send" class="btn btn-block btn-secondary">
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div> 
+        </div><br>
+    
+      <!--inquiry-->
+
+{% endblock %}

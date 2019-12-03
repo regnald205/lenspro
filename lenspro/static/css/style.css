@@ -1,0 +1,178 @@
+/*video */
+
+
+
+/*video */
+#footer a:link{
+  background-color: red;
+
+}
+
+
+.row .text-left{
+  margin:0 auto 30px 40px;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Coiny', cursive;
+    scroll-behavior: smooth;
+}
+/* line */
+.line{
+  background-color: #30CAA0;
+  width:35px;
+  height:4px;
+  margin:0 auto 30px auto;
+}
+
+/* line */
+/* liner */
+.liner{
+  background-color: rgb(11, 12, 12);
+  width:50px;
+  height:4px;
+  margin:0 auto 30px 5px;
+}
+
+
+
+
+/*carousel try */
+
+.carousel .carousel-item {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel .carousel-item:first-of-type {
+  background-image: url("../img/kops/9.jpg");
+}
+
+.carousel .carousel-item:nth-of-type(2) {
+  background-image: url("../img/kops/1.jpg");
+}
+
+.carousel .carousel-item:last-of-type {
+  background-image: url("../img/kops/5.jpg");
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+
+
+
+
+/* try */
+
+
+
+
+.btn-secondary {
+  color: #fff !important; }
+
+img {
+  width: 100%; }
+
+.logo {
+  width: 80px; }
+
+.navbar{
+  opacity: 0.9;
+  text-transform: uppercase;
+  background-color: black;
+ 
+  
+  
+ 
+ }
+
+.social a {
+  margin-right: 0.4rem; }
+
+#showcase {
+  background: url(../img/showcase.jpg) no-repeat top center fixed/cover;
+  position: relative;
+  min-height: 650px;
+  color: #fff;
+  padding-top: 6rem; }
+  #showcase .home-search {
+    min-height: 400px;
+    position: relative;
+    border-radius: 5px; }
+  #showcase .overlay {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(51, 51, 51, 0.8); }
+
+#services {
+  background: url(../img/kops/s.jpg) no-repeat top center fixed/cover;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden; }
+  #services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(32, 134, 107, 0.8); }
+
+#showcase-inner {
+  background: url(../img/kops/s.jpg) no-repeat top center fixed/cover;
+  position: relative;
+  overflow: hidden;
+  min-height: 200px; }
+  #showcase-inner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgba(32, 134, 107, 0.8); }
+  #showcase-inner.showcase-search {
+    min-height: 270px; }
+
+#work {
+  padding: 6rem 0; }
+
+.listing-preview a {
+  position: relative; }
+
+@media (max-width: 991px) {
+  #showcase {
+    padding-top: 4rem; }
+    #showcase h1 {
+      font-size: 40px; }
+  .hide-md-down {
+    display: none; } }
+
+@media (max-width: 768px) {
+  #showcase {
+    padding-top: 3rem; }
+    #showcase h1 {
+      font-size: 40px; }
+    #showcase p {
+      display: none; }
+  #top-bar {
+    text-align: center; }
+    #top-bar .social {
+      text-align: center !important; } }
+
+@media (max-width: 576px) {
+  #showcase h1 {
+    font-size: 30px; }
+  #showcase-inner h1 {
+    font-size: 40px; } }
+
